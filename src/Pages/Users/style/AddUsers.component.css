@@ -1,0 +1,25 @@
+.form-fields {
+  width: 50%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.field label {
+  font-size: 15px;
+  width: 30%;
+}
+.field input,
+.field input:focus,
+.field select,
+.field button {
+  font-size: 15px;
+  line-height: 26px;
+  color: #646464;
+  width: 70%;
+  height: 2rem;
+}

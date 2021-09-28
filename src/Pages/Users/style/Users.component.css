@@ -1,0 +1,23 @@
+.users-container {
+  padding-left: 2rem;
+  /* overflow: scroll; */
+}
+.view-section input {
+  width: 45%;
+  padding-left: 1rem;
+}
+.card {
+  display: flex;
+  gap: 1rem;
+  overflow: scroll;
+  max-width: 95%;
+}
+.card::-webkit-scrollbar {
+  width: 5px;
+}
+.card::-webkit-scrollbar-track {
+  background: #ffffff !important;
+}
+.card::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
